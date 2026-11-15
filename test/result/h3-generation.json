@@ -1,0 +1,16 @@
+{
+  "model": "MiniMax H3 Base FL2VA",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "torch": "2.10.0+cu130",
+  "prompt": "A red fox trots through a snowy pine forest, with soft footsteps and wind in the trees.",
+  "seed": 42,
+  "width": 640,
+  "height": 384,
+  "frames": 124,
+  "dit_steps": 49,
+  "requests_per_backend": 1,
+  "generation_seconds": {
+    "Default Diffusers": 156.30507678999857,
+    "TileServe native TileLang": 126.29099508999934
+  }
+}

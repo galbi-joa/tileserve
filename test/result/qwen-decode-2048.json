@@ -1,0 +1,51 @@
+{
+  "model": "Qwen3.8-27B-FP8",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+  "torch": "2.10.0+cu130",
+  "tilelang": "0.1.15",
+  "warmups": 2,
+  "repeats": 5,
+  "decode_steps": 64,
+  "prompt_tokens": 2048,
+  "checkpoint": {
+    "repository": "Qwen/Qwen3.8-27B-FP8",
+    "revision": "177354e00220d4fd6826574006e4f49a88df1796"
+  },
+  "results": [
+    {
+      "batch_size": 1,
+      "transformers_tokens_per_second": 10.32479459249766,
+      "transformers_ms_per_token_per_request": 96.85422707843827,
+      "tileserve_tokens_per_second": 52.47753153293459,
+      "tileserve_ms_per_token_per_request": 19.055774362641387
+    },
+    {
+      "batch_size": 2,
+      "transformers_tokens_per_second": 20.11798112146494,
+      "transformers_ms_per_token_per_request": 99.4135538712726,
+      "tileserve_tokens_per_second": 43.77425733181356,
+      "tileserve_ms_per_token_per_request": 45.68895332340617
+    },
+    {
+      "batch_size": 4,
+      "transformers_tokens_per_second": 39.91917332068488,
+      "transformers_ms_per_token_per_request": 100.20247583452147,
+      "tileserve_tokens_per_second": 87.45657741750696,
+      "tileserve_ms_per_token_per_request": 45.73698306194274
+    },
+    {
+      "batch_size": 8,
+      "transformers_tokens_per_second": 81.12056291422661,
+      "transformers_ms_per_token_per_request": 98.61864504637197,
+      "tileserve_tokens_per_second": 174.56772017646904,
+      "tileserve_ms_per_token_per_request": 45.827487418137025
+    },
+    {
+      "batch_size": 16,
+      "transformers_tokens_per_second": 161.75520865002474,
+      "transformers_ms_per_token_per_request": 98.91489821893629,
+      "tileserve_tokens_per_second": 349.71863795894313,
+      "tileserve_ms_per_token_per_request": 45.75106460833922
+    }
+  ]
+}

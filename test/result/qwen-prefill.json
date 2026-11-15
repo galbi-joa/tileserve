@@ -1,0 +1,26 @@
+{
+  "model": "Qwen3.8-27B-FP8",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "torch": "2.10.0+cu130",
+  "tilelang": "0.1.15",
+  "warmups": 2,
+  "repeats": 5,
+  "batch_size": 1,
+  "results": [
+    {
+      "prompt_tokens": 128,
+      "transformers_tokens_per_second": 1334.4253658915488,
+      "tileserve_tokens_per_second": 2681.7025257725563
+    },
+    {
+      "prompt_tokens": 1024,
+      "transformers_tokens_per_second": 3126.0409292756594,
+      "tileserve_tokens_per_second": 3966.7276155901677
+    },
+    {
+      "prompt_tokens": 2048,
+      "transformers_tokens_per_second": 3204.4467807594156,
+      "tileserve_tokens_per_second": 4007.176838069341
+    }
+  ]
+}

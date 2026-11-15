@@ -1,0 +1,2 @@
+-r requirements.txt
+diffusers @ https://codeload.github.com/huggingface/diffusers/tar.gz/43e30028af5120d8b0868cb6975b9fad39cc4fab

@@ -1,0 +1,18 @@
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.claude/
+
+# Local runtime and model data
+.runtime/
+model/
+output/
+*.safetensors
+*.pt
+*.pth
+*.gguf
+pytorch_model*.bin

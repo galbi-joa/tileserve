@@ -1,0 +1,14 @@
+# Core runtime
+torch
+tilelang==0.1.15
+
+# Tokenization / HF weight format
+transformers==5.23.0
+accelerate>=1.14,<2
+safetensors
+huggingface_hub
+tqdm
+
+# Native video output
+numpy
+Pillow
